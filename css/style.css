@@ -1,0 +1,31 @@
+body{
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+#header{
+    width: 100%;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+#header-background{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header .naglowki{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}

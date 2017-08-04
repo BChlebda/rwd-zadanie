@@ -1,0 +1,40 @@
+@media screen and (min-width: 1171px){
+    #header .naglowki{
+    top: 40%;
+    left: 3%;
+    }
+    #header-background{
+    background-image:url('../obrazy/man-1.jpg');
+    height: 100vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1170px){
+    #header .naglowki{
+    top: 50px;
+    right: 45px;
+    }
+    
+    #header-background{
+    background-image: url("../obrazy/man-2.jpg");
+    height: 70vh;
+
+    }
+}
+
+@media screen and (max-width: 991px){
+    #header {
+        width: 100%;
+    }
+    #header .naglowki{
+    width: 100%;    
+    top: 52%;
+    right: 0;
+    color: #000;
+    text-align: center;
+    }
+    #header-background{
+    background-image: url("../obrazy/man-1.jpg");
+    height: 50vh;    
+    }    
+}
